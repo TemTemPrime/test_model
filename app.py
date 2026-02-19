@@ -7,7 +7,7 @@ import joblib
 # -----------------------------
 @st.cache_resource
 def load_model():
-    model = joblib.load("your_model.pkl")  # change to your model file
+    model = joblib.load("model_2.pkl")  # change to your model file
     return model
 
 model = load_model()
